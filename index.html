@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <input type="text" placeholder="Pesquisar por Título" id="titulo">
+        <button id="PesquisarFilme" onclick="PesquisarFilme()">Pesquisar</button>
+        
+        <table id="table-films">
+            <thead>
+                <tr>
+                    <th>
+                        Título
+                    </th>
+                    <th>
+                        Ano
+                    </th>
+                    <th>
+                        Poster
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">
+                        Lista Vazia
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <center><p>&copy; Desenvolvido por Felipe Severo<p></center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
